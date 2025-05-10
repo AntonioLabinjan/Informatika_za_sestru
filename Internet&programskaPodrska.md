@@ -1,140 +1,181 @@
+---
 
-# Internet – sažetak
+## 📡 Internet
 
-## Osnovne informacije
+### 🌍 Osnovno
 
-* **Internet** je globalni sustav međusobno povezanih računalnih mreža, dostupan javnosti.
-* Omogućuje prijenos podataka i komunikaciju između korisnika širom svijeta.
+* Internet je globalni sustav povezanih računalnih mreža, javno dostupan.
+* Omogućuje razmjenu podataka i komunikaciju među korisnicima diljem svijeta.
 
-## Povijest interneta
+### 📜 Povijest interneta
 
-* **ARPANET** (1969.) – prvi oblik interneta, razvijen u SAD-u kao projekt Ministarstva obrane.
-* **1980-e** – mreža se dijeli na vojni i civilni dio; civilni dio prerasta u internet.
-* **1990.** – ARPANET prestaje s radom, internet se dalje razvija samostalno.
-* Rani rast: broj računala povezanih na internet raste eksponencijalno od 1971. do 1994.
+* **1969**: ARPANET (projekt američkog Ministarstva obrane) pušten u rad.
+* Prvotno povezivao 4 računala na sveučilištima u SAD-u.
+* Početkom 1980-ih: podjela na vojnu i civilnu mrežu.
+* Iz civilne mreže razvio se internet.
+* **1990**: ARPANET prestaje postojati.
 
-## Razvoj i širenje
+### 📈 Širenje interneta
 
-* Tijekom 1990-ih internet se brzo širi i komercijalizira.
-* **2008.**: procjenjuje se da internet koristi oko 1,5 milijardi ljudi.
+* 1986: 1961 računalo
+* 1991: 700,000 računala
+* 1994: 75 zemalja, 3.5 mil. računala
+* 2008: 1.5 milijardi korisnika
 
-## CARNet (Croatian Academic and Research Network)
+### 🇭🇷 CARNet
 
-* Osnovan 1991. u Hrvatskoj, s ciljem povezivanja obrazovnih i istraživačkih institucija.
-* Prva internetska veza iz Hrvatske ostvarena je 1992.
-* Pruža tehničku podršku i pristup internetu akademskoj zajednici.
+* Pokrenut 1991. od strane Ministarstva znanosti RH.
+* 1992: prva veza Hrvatske s internetom.
+* Omogućuje pristup internetu obrazovnim i istraživačkim institucijama.
 
-## Protokoli i IP adrese
+### 📦 Protokoli
 
-* **TCP/IP** – skup protokola koji omogućuje razmjenu podataka putem interneta.
-* Podaci se dijele u **pakete** koji putuju od izvora do odredišta neovisnim putem.
-* Svaki uređaj u mreži ima **jedinstvenu IP adresu** koja omogućuje identifikaciju.
+* Dogovor o prijenosu podataka naziva se **protokol**.
+* **TCP/IP** protokol dijeli podatke u pakete koji putuju mrežom.
+* IP adresa identificira svaki čvor u mreži (IPv4: 32-bitna; IPv6: znatno više adresa).
 
-## Simboličke adrese i DNS
+### 🔢 Adresiranje
 
-* Budući da su IP adrese teške za pamćenje, koriste se **simboličke adrese** (npr. [www.skole.hr](http://www.skole.hr)).
-* **DNS (Domain Name System)** prevodi simboličke adrese u brojčane IP adrese koje razumije mreža.
+* IP adrese se teško pamte → koriste se **simboličke adrese** (npr. [www.skole.hr](http://www.skole.hr)).
+* Dijelovi adrese:
 
-## Tipovi IP adresa
+  * Glavna domena (.hr, .com, .edu...)
+  * Domena (npr. tvrtka ili ustanova)
+  * Ime računala (npr. www, webct)
 
-* **Stalna IP adresa** – ne mijenja se između spajanja.
-* **Privremena (dinamička) IP adresa** – uređaju se dodjeljuje nova adresa pri svakom spajanju.
+### 🌐 DNS
 
-## Problemi interneta
+* Pretvara simboličke adrese u brojčane (IP).
+* Prije razmjene podataka, korisnik kontaktira **DNS poslužitelj**.
 
-* **Zagušenje mreže** – dolazi do usporavanja kada je previše podataka u prijenosu.
-* Rješenje uključuje optimizaciju količine podataka u mreži.
+### 🧭 IP adrese
 
-## Model korisnik–poslužitelj
+* **Stalne**: uvijek ista
+* **Privremene** (dinamičke): mijenjaju se pri svakom spajanju
 
-* Internet koristi **client-server model**, gdje korisničko računalo zahtijeva, a poslužiteljsko pruža usluge.
-* Klijent pristupa uslugama, dok poslužitelj pohranjuje podatke i odgovara na zahtjeve.
+### ⚠️ Zagušenje mreže
 
-## Davatelji internetskih usluga (ISP)
+* Pojavljuje se kod velikog prometa → usporenja
+* Rješenje: smanjenje količine podataka
 
-* **ISP (Internet Service Provider)** omogućuje korisnicima pristup internetu putem vlastitih poslužitelja.
-* U Hrvatskoj su najpoznatiji: CARNet, T-Com, A1, Telemach, Iskon.
-* Pristup se ostvaruje otvaranjem korisničkog računa (korisničko ime + lozinka).
+### 👥 Mreža korisnik/poslužitelj
 
-## Usluge interneta
+* **Korisnik** (client): traži uslugu
+* **Poslužitelj** (server): pruža uslugu
+* Primjeri usluga: web, e-mail, chat, FTP, blog, videopozivi...
 
-* Internetske usluge uključuju:
+### 🌐 Davatelji internet usluga (ISP)
 
-  * pregledavanje web stranica (World Wide Web),
-  * slanje elektroničke pošte (e-mail),
-  * web-mail servisi,
-  * chat, forumi, blogovi,
-  * prijenos datoteka (FTP),
-  * videokonferencije i internetska telefonija (VoIP).
+* Omogućuju korisnicima pristup internetu (npr. CARNet, T-com, A1...)
+* Usluga se naplaćuje (po vremenu, količini podataka, mjesečno...)
+* Za pristup potrebno otvoriti korisnički račun (username + password)
 
 ---
 
-# Programska podrška – sažetak
+## 🖥️ Programska podrška (Software)
 
-## Osnovne podjele
+### 🧠 Općenito
 
-* **Hardver (hardware)** – fizički dijelovi računala.
-* **Softver (software)** – skup programa koji upravljaju radom računala.
+* Softver su programi koji upravljaju radom računala.
+* **Program**: skup naredbi koje računalo izvršava.
+* **Programski jezik**: umjetni jezik za pisanje programa (sintaksa, rječnik).
 
-## Program i programski jezik
+### 🔧 Osnovna podjela
 
-* **Program** – niz naredbi koje računalo izvršava radi rješavanja određenog zadatka.
-* **Programski jezik** – umjetni jezik s pravilima (sintaksom) za pisanje programa (npr. Python, C++).
+1. **Sistemski softver** – neophodan za rad računala
+2. **Korisnički (aplikativni) softver** – rješava konkretne zadatke
 
-## Podjela softvera
+---
 
-### 1. Sistemski softver
+### 🛠️ Sistemski softver
 
-* **Operacijski sustav (OS)** – upravlja svim aspektima rada računala; neophodan je za korištenje računala.
-* **Driveri (pogonski programi)** – omogućuju komunikaciju između OS-a i uređaja (tipkovnica, printer itd.).
-* **Pomoćni i uslužni programi (Tools/Utility)** – dodatni alati koji pomažu OS-u u svakodnevnim operacijama.
-* **Programi za razvoj** – uključuju prevoditelje, debuggere, razvojna okruženja i alate.
+#### 1. Operacijski sustav (OS)
 
-### 2. Korisnički (aplikativni) softver
+* Upravljanje hardverom, memorijom, procesima, ulazno-izlaznim jedinicama, sigurnošću, podacima.
+* Ključne funkcije:
 
-* Programi koji omogućuju korisnicima da rješavaju konkretne zadatke:
+  * Boot (pokretanje sustava)
+  * Upravljanje uređajima
+  * Upravljanje datotekama i drugim programima
 
-  * obrada teksta (npr. MS Word),
-  * proračunske tablice (npr. Excel),
-  * prezentacije (npr. PowerPoint),
-  * baze podataka (npr. Access),
-  * crtanje i dizajn (npr. Photoshop, AutoCAD),
-  * web dizajn (npr. Dreamweaver),
-  * komunikacija i internet alati (npr. Skype, Outlook).
+#### 2. Driveri
 
-## Distribucija softvera
+* Omogućuju komunikaciju OS-a s uređajima.
+* Plug and Play – automatska instalacija.
 
-* **Komercijalni softver** – plaća se licenca za korištenje.
-* **Freeware** – besplatan i legalan za korištenje.
-* **Shareware/Trialware** – ograničenog trajanja ili funkcionalnosti.
-* **Demo verzija** – prikazuje samo osnovne mogućnosti programa.
+#### 3. Pomoćni programi i alati
 
-## Razvojne faze softvera
+* Paint, Kalkulator, WordPad, NotePad
+* Alati za multimediju, sustav (Backup, defragmentacija...)
 
-* **Alfa verzija** – prva funkcionalna verzija, još nestabilna.
-* **Beta verzija** – testna verzija za ograničeni broj korisnika.
-* **Release Candidate (RC)** – gotovo finalna verzija, spremna za objavu.
-* **Finalna verzija** – završni, stabilni oblik softvera spreman za tržište.
+#### 4. Programi za razvoj drugih programa
 
-## Pravna klasifikacija softvera
+* Prevoditelji, debuggere, IDE alati, programski jezici.
 
-* **Legalni softver** – originalan, s licencom.
-* **Piratizirani softver** – ilegalne kopije, nepoželjne za korištenje.
+#### Uslužni (Utility) programi:
 
-## Operacijski sustavi
+* Antivirusni (Nod32, Sophos)
+* Komprimiranje (WinZip, WinRar)
+* Anti-spyware (Ad-Aware)
+* Kodiranje (npr. u druge formate)
+* Playeri (Windows Media Player, QuickTime...)
 
-* Upravljaju memorijom, procesorom, uređajima, datotekama i korisničkim sučeljem.
-* Omogućuju komunikaciju korisnika s računalom i drugim uređajima.
+---
 
-## Vrste korisničkih sučelja OS-a
+### 📂 Aplikativni softver
 
-* **GUI (grafičko korisničko sučelje)** – koristi grafičke elemente (Windows, Linux).
-* **CLI (znakovno sučelje)** – koristi tekstualne naredbe (DOS, Unix).
+#### Primjene:
 
-## Klasifikacija OS-a prema korisnicima i zadacima
+* Obrada teksta: MS Word
+* Tablice: MS Excel
+* Prezentacije: PowerPoint, Flash
+* Baze podataka: MS Access, Oracle
+* Web stranice: FrontPage, Dreamweaver
+* Obrada slika: Photoshop, CorelDraw
+* CAD: AutoCAD
+* Izdavaštvo: PageMaker
+* Internet: preglednici (Chrome, Firefox...), e-mail, FTP, chat
+* Edukacija: MS Encarta
+* Igre i zabava
 
-* **Jednokorisnički OS** – podržava jednog korisnika (npr. DOS).
-* **Višekorisnički OS** – omogućuje više korisnika istovremeno (npr. Linux, Windows NT).
-* **Jednozadaćni OS** – izvršava samo jedan zadatak u isto vrijeme.
-* **Višezadaćni OS** – omogućuje paralelno izvođenje više zadataka.
+---
+
+### 📦 Distribucija softvera
+
+* **Komercijalni (licencirani)**
+* **Freeware** – besplatan
+* **Shareware / Trial** – ograničeno vrijeme korištenja
+* **Demo** – ograničene funkcionalnosti
+
+### 🧪 Verzije softvera
+
+* **Alpha** – rana verzija
+* **Beta** – testira se
+* **Release Candidate** – kandidat za finalnu verziju
+* **Final** – službena verzija
+
+### ⚖️ Pravni status
+
+* **Legalni** – uz licencu i račun
+* **Piratizirani** – nelegalne kopije (zabranjene)
+
+---
+
+### 🖱️ Sučelja OS-a
+
+* **Grafičko (GUI)** – vizualno, miš (Windows, novi Linux)
+* **Znakovno (CLI)** – tipkovnica, tekstualne naredbe (MS-DOS, Unix)
+
+### 👥 Broj korisnika
+
+* **Jednokorisnički** – npr. DOS
+* **Višekorisnički** – npr. Windows NT, Linux
+* **Mješoviti** – više korisnika, ali ne istovremeno
+
+### 📚 Broj zadataka
+
+* **Jednozadaćni (Single-tasking)** – jedan zadatak (npr. MS-DOS)
+* **Višezadaćni (Multitasking)** – više zadataka (Windows, Linux)
+
+---
 
